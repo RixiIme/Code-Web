@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./../clone1/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../clone1/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"/> 
+    <link rel="stylesheet" href="sp.css">
+    <title>Document</title>
+</head>
+<body >
+    <header class="py-6 mx-10">
+        <nav class="flex flex-grow justify-between items-center">
+            <div class="logo">
+                <a  href=""><img class="d-block" src="https://kinhmateyeplus.com/wp-content/uploads/2020/05/logo.png"
+                    alt="https://kinhmateyeplus.com"></a>
+            </div>
+            <ul class="hidden lg:flex lg:items-center lg:justify-end lg:gap-5  text-lg font-medium ">
+                <li> <a class="hover:text-violet-600" href="">Sunglasses</a></li>
+                <li> <a class="hover:text-violet-600" href="">Eyeglass Frames</a></li>
+                <li><a class="hover:text-violet-600" href="">Lenses</a></li>
+                <li><a class="hover:text-violet-600" href="">Close-up Sunglasses</a></li>
+                <li><a class="hover:text-violet-600" href="">Genuine Glasses</a></li>
+                <li> <a href=""> <i class="bi bi-facebook"></i></i></a></li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-youtube text-pink-400	"></i></a></li>
+            </ul>
+            <ul class="flex gap-3 text-xl ">
+                <li><a href="" class="search"><i class="bi bi-search"></i></a></li>
+                <li><a href="">|</a></li>
+                <li><a href=""><i class="bi bi-cart-fill"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="wrapper  ">
+        <div class="root" >
+            <div class="content-wrapper text-base max-w-screen-2xl  px-8 bg-slate-300 flex  items-center gap-2 h-20  ">
+                <span class="hover:text-sky-400"><a href="">Home</a></span>
+                <span >></span>
+                <span class="hover:text-sky-400"><a href="">Kính Chính Hãng</a></span>
+                <span >></span>
+                <span class="hover:text-sky-400"><a href="">Kính râm thời trang</a> </span>
+            </div>
+        </div>
+        <div class="main max-w-screen-2xl">
+            <div class="top-main  flex bg-slate-100   ">
+                <div class=" mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+                    <div class="image basis-4/6 p-8">
+                        <div class="top-image text-center">
+                            <img class="mySlides" src="./img/img1.png" width="700px" height="700px">
+                            <img class="mySlides" src="./img/img2.jpg" width="700px" height="700px">
+                            <img class="mySlides" src="./img/img3.png" width="700px" height="700px">
+                            <button class="image-button button-left " onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="image-button button-right " onclick="plusDivs(1)">&#10095;</button>       
+                           <script class="script">
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+                            
+                            function plusDivs(n) {
+                              showDivs(slideIndex += n);
+                            }
+                            
+                            function showDivs(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              if (n > x.length) {slideIndex = 1}
+                              if (n < 1) {slideIndex = x.length}
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                            </script>  
+                        </div>
+                        <div class="bot-image flex flex-grow gap-2 mt-10">
+                            <div >
+                                <img src="./img/img1.png" width="100px" height="100px" alt="">
+                            </div>
+                            <div >
+                                <img src="./img/img2.jpg" width="100px" height="100px" alt="">
+                            </div>
+                            <div >
+                                <img src="./img/img3.png" width="100px" height="100px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="content basis-2/6 p-8  ">
+                        <h3>HIGH-Fashion Sunglasses RM3203 C1 BLACK FRAME</h3>
+                        <p>Fashionable sunglasses RM3203 C1 is a product model exclusively designed by Ree-man. RM3203 is designed by high-quality plastic material that is durable over time, bringing unique experiences such as: long-term use value, beautiful glass surface, hard to rust, good resistance to environmental impacts. , … In addition, the dimensions of the glasses are optimally designed with Vietnamese faces. The glass bridge has a standard width, balances the glass shape, and helps the user to see the right focus.</p>
+                            <span>
+                                Status: In stock</span><br>
+                            <div class="sticky">
+                                <div class="price">
+                                    <p>Price:</p><br>
+                                    <span class="old-price gia border p-2 rounded-md bg-teal-100">550.000 Đ</span>
+                                    <span class="new-price gia border p-2 rounded-md bg-teal-100">385.000 Đ</span>
+                                </div>   <br>
+                           <form class="cart">
+                            <div class="quantity">
+                                <input  type="button" value="-" class="minus box border-2 ">
+                                <input type="number" class="number box">
+                                <input type="button" value="+" class="plus box border-2">
+                            </div><br>
+                            <button type="submit" class="submit rounded-xl">Add to cart     </button>
+                           </form>      <br><br>
+                           <div class="button border rounded-xl bg-orange-300 w-2/4 text-center text-2xl text text-white">
+                            <button class="mua">BUY NOW</button>
+                            </div>
+                       </div>
+                       <div class="textwidget  mt-5">
+                        <ul>
+                            <li class="freeship icon flex gap-4">
+                                <span class="icon-img"><i class="fa fa-car"></i></span>
+                                <h3>
+                                    FREE SHIPPING NATIONWIDE
+                                    <span class="text"> With all orders over 400,000 VND  </span>
+                                </h3>
+                            </li>
+                            <li class="chinhsach icon flex gap-4"> 
+                                <span class="icon-img"><i class="fa fa-exchange"></i></span>
+                                <h3>
+                                    EASY REFUND POLICY
+                                    <span class="text">7 days return for glasses frames, 1 year warranty on changing screws, adjusting frames                                    </span>
+                                </h3>
+                            </li>
+                            <li class="tongdai icon flex gap-4">
+                                <span class="icon-img"><i class="fa fa-phone-square"></i></span>
+                                <h3>
+                                    SUPPORT PBX 0904.915.377
+                                    <span class="text">We are always ready to answer any questions                                    </span>
+                                </h3>
+                            </li>
+                            <li class="hdmua  flex gap-4">
+                                <span><i class=" fa fa-file-text-o"></i></span>
+                                <a href="">Shopping guide </a>
+                            </li>
+                        </ul>
+                       </div>
+                       
+                    </div>
+                </div>
+            </div>
+        
+            <div class="bottom-main">
+                <div class="about border drop-shadow-md rounded-lg   mt-8 w-1/2  mx-auto">
+                    <div class="text-center grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 p-8" >
+                        <div class="item chieu_rong">
+                            <span class="about">Substance:</span><br>
+                            <p>high quality plastic</p>
+                        </div>
+                        <div class="item cau_kinh">
+                            <span class="about">Designs:</span><br>
+                            <p>Pilot</p>
+                        </div>
+                        <div class="item gong">
+                            <span class="about">Gender</span>
+                            <p>Male, Female</p>
+                        </div>
+                        <div class="item gong">
+                            <span class="about"> Frame COLOR:</span><br>
+                            <p>Grey Black Eye
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features mt-10 ml-10 w-1/2">
+                    <h3>SPECIAL CHARACTERISTICS</h3><br>
+                    <h4>Fashion Sunglasses RM3203 C1 Black Frame Black Eyes</h4><br>
+                    <div>
+                        <ul type="circle">
+                        <li>This is a HOT beautiful sunglasses model in 2022</li>
+                        <li>Color: Black frame with black eyes</li>
+                        <li>Full rim of glasses is plastic, lenses are flexible polycarbonate</li>
+                        <li>Large square frame, 0 degree UV400 anti-glare lenses</li>
+                        <li>Can cut more near-sighted sunglasses</li>
+                        <li>Fashion accessories suitable for all ages </li>
+                        <li>Durable plastic material, contact with sweat does not worry about sticking</li>
+                        <li>Suitable for most face types                        </li>
+                    </ul>
+                    </div><br>
+                    <div class="content-features">
+                        <h3>Buy Fashionable Sunglasses Reeman 19919 C1 Black Eyeglass Frames At Eye Plus Eyewear</h3>
+                    <p>Reeman 19919 sunglasses have a classic aviator shape with a trendy look. Exquisite in every cleverly designed detail. Lenses with all the functions of sun protection, anti-glare, UV protection protect eyes. The black eyeglass frame enhances the trendy look of these 199119 glasses.</p>
+                    </div>
+                </div>
+                <div class="bot-img p-8">
+                    <img src="./img/img10.png" alt="">
+                </div>
+                <div class="kich_thuoc border drop-shadow-md rounded-lg   mt-8 w-1/2  mx-auto">
+                    <div class="text-center grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-4 p-8" >
+                        <div class="item chieu_rong">
+                            <span class="about">Wide glasses:</span><br>
+                            <p>57mm</p>
+                        </div>
+                        <div class="item cau_kinh">
+                            <span class="about">Glass bridge:</span><br>
+                            <p>16mm</p>
+                        </div>
+                        <div class="item gong">
+                            <span class="about">Frame length:</span><br>
+                            <p>149mm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about mt-10">
+                <div class="similar ">
+                    <h3 class="mb-5 ml-10">OTHER GLASSES</h3>
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 text-center ml-10 mr-10 ">
+                        <div class="product-item  border rounded-lg basis-1/4">
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img src="./img/img7.jpg" alt=""  width="236px" height="auto">
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>MIHAN ORIGINAL GLASSES</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item border rounded-lg basis-1/4">
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img src="./img/img8.jpg" alt="" width="236px" height="auto" >
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>MIHAN ORIGINAL GLASSES</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item border rounded-lg basis-1/4" >
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img src="./img/img9.jpg" alt=" "width="236px" height="auto" >
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>MIHAN ORIGINAL GLASSESN</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item border rounded-lg basis-1/4">
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img src="./img/img9.jpg" alt=" "width="236px" height="auto" >
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>MIHAN ORIGINAL GLASSES</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="similar mt-20">
+                    <h3 class="mb-5 ml-10">RELATED PRODUCTS</h3>
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 text-center ml-10 mr-10">
+                        <div class="product-item border rounded-lg basis-1/4 ">
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img class="text-center" src="./img/img4.jpg" alt=""  width="236px" height="auto">
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>FRAME GLASSES EP450 H00121 C3</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item border rounded-lg basis-1/4">
+                            <div class="product-img  p-8">
+                                <a  href="">
+                                    <img  src="./img/img5.jpg" alt="" width="236px" height="auto" >
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>FRAME GLASSES EP450 H00121 C3</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item border rounded-lg basis-1/4">
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img src="./img/img6.jpg" alt=" "width="236px" height="auto" >
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>FRAME GLASSES EP450 H00121 C3</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item border rounded-lg basis-1/4">
+                            <div class="product-img p-8">
+                                <a href="">
+                                    <img src="./img/img6.jpg" alt=" "width="236px" height="auto" >
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-detail">
+                                    <h3>FRAME GLASSES EP450 H00121 C3</h3><br>
+                                    <div class="product-price  text-orange-600">
+                                        <span class="price">450.000 Đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" ">
+        <div class="row mt-5 bg-blue-100 mx-3 grid grid-cols-1 lg:grid-cols-3 text-center ">
+            <div class="col-12 col-md-5 ml-7 lg:ml-20">
+                <h1 class="mt-3">MAP OF EYEPLUS STORE </h1><br>
+                <iframe
+                    class="w-100 "
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4493.458056386007!2d105.79945576198185!3d21.018249879753128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab5c87ed1235%3A0x2e3297e6e2ab58c6!2zMzggTmd1eeG7hW4gS2hhbmcsIFnDqm4gSG_DoCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1662907056635!5m2!1svi!2s"
+                    style="border:0; height: 320px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class=" col-12 col-md-4 text-center ">
+                <h2 class="mt-3">SHOP SYSTEM</h2><br>
+                <ul class="text-blue-500">
+
+                    <li><a href="">164 Tôn Đức Thắng – Đống Đa HN</a></li><br>
+
+                    <li><a href="">38 Nguyễn Khang – Cầu Giấy HN</a></li><br>
+
+                    <li><a href="">298 Nguyễn Trãi – Hà Đông HN</a></li><br>
+
+                    <li><a href="">805 Lê Hồng Phong – Q.10 HCM</a></li><br>
+
+                    <li><a href="">399 – 401 Lê Văn Sỹ – Q.Tân Bình HCM</a></li><br>
+
+                    <li><a href="">83 Xô Viết Nghệ Tĩnh – Q.BT HCM</a></li><br>
+
+                    <li><a href="">213 Trần Đại Nghĩa – Q.HBT HN</a></li><br>
+
+                    <li><a href="">56 Nguyễn Cư Trinh – Q.1 HCM</a></li><br>
+
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-3 my-0 md-my-3 leading-8 ">
+                <h2 class="mt-3">SHOPPING GUIDE</h2><br>
+                <ul>
+
+                    <li><a href="">Quick Note</a></li>
+
+                    <li><a href="">Choose Glasses By Face</a></li>
+
+                    <li><a href="">Refraction Consulting</a></li>
+
+                    <li><a href="">How to Buy</a></li>
+
+                    <li><a href="">Payment method</a></li>
+
+                    <li><a href="">Warranty & Return Policy</a></li>
+
+                    <li><a href="">Eye Care Guide</a></li>
+
+                    <li class="text-blue-500"><a href="">HOTLINE: <i>0904.915.377</i></a></li><br>
+
+                    <li><a href="">OPEN TIME: 09:00 – 21:30</a></li><br>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted ">
+        <section class="">
+          <div class="container text-center text-md-start mt-5 flex bg-slate-50  text-gray-400">
+            <!-- Grid row -->
+            <div class="row mt-3 grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-4 text-start">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">GENUINE PRODUCT</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">NEW EYEGLASSES MODEL</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Quick link
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">
+                    Sunglasses</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    Eyeglass Frames</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    Lenses
+                    </a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">
+                    Close-up Sunglasses</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">
+                        Genuine Glasses
+                    </a>
+                  </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  eyeplusglass@gmail.com
+                </p>
+                <p><i class="fa fa-phone me-3"></i> 001 234 567 88</p>
+                <p><i class="fa fa-print me-3"></i> 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Measure & Cut Myopia Glasses 2022 </a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
